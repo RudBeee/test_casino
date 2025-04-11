@@ -491,17 +491,17 @@ body {
     gap: 30px;
     top: -100px;
   }
-  
+
   .char-image {
     width: 350px;
     height: 380px;
     background-size: contain;
   }
-  
+
   .character-left {
     background-image: url(/images/char/chara_Ipad_web.webp);
   }
-  
+
   .character-right {
     background-image: url(/images/char/explorer_Ipad_web.webp);
   }
@@ -512,11 +512,12 @@ body {
     position: relative;
     top: -110px;
   }
+
   .wrapper {
     max-width: 800px;
     gap: 5px;
   }
-  
+
   .payment-icon {
     width: 130px;
     height: 62px;
