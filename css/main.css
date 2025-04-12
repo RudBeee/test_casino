@@ -529,7 +529,7 @@ body {
 @media (min-width: 1201px) {
 
   .container {
-    background-image: url(/images/BG/bg_pc_web_png.png);
+    background-image: url('images/BG/bg_pc_web_png.png');
     background-position: top;
     background-size: cover;
   }
