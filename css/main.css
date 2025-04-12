@@ -320,6 +320,9 @@ body {
   height: 100%;
   background-color: rgba(0, 1, 23, 1);
   flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper {
   display: flex;
@@ -375,7 +378,6 @@ body {
   .container {
     height: 100%;
     background-image: url(/images/BG/bg_Ipad_web.webp);
-    
     background-position: top;
     background-size: 100% auto;
   }
@@ -466,7 +468,7 @@ body {
 
   .cta {
     position: absolute;
-    top: 510px;
+    top: 560px;
   }
   .cta-text {
     font-weight: 700;
@@ -641,12 +643,13 @@ body {
 
   .container__image {
     position: absolute;
-    top: -380px;
+    bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
-    gap: 550px;
+    gap: 100px;
+    padding: 0 30px;
   }
 
   .container__image::after {
@@ -654,21 +657,24 @@ body {
   }
   
   .char-image {
-    width: calc(100vw - 20px);
-    height: calc(100vh - 400px);
+    /* width: calc(100vw - 200px); */
+    width: 400px;
+    max-width: 600px;
+    /* height: calc(50vh + 100px); */
+    height: 500px;
+    max-height: 800px;
   }
-  
+
+  .container__image::after {
+    background: none !important
+  }
+
   .character-left {
     background-image: url(/images/char/Character_pc_web.webp);
   }
   
   .character-right {
-    height: calc(100vh - 500px);
     background-image: url(/images/char/explorer_pc_web.webp);
-  }
-
-  .wrapper {
-    width: 100%;
   }
 
   .payment-methods {
@@ -683,25 +689,12 @@ body {
     position: relative;
     z-index: 3;
   }
-  .wrapper {
-    max-width: 100%;
-    padding: 0 10px;
-    height: 80px;
-  }
-  
-  .payment-icon {
-    width: 100px;
-    height: 55px;
-  }
-}
 
-@media (min-width: 1201px) and (max-width: 1501px) {
   .cta {
     top: 640px;
+    z-index: 4;
   }
-  .gradd {
-    height: calc(50vh + 100px);
-  }
+
   .wrapper {
     max-width: 1020px;
     padding: 0 10px;
@@ -713,26 +706,28 @@ body {
     width: 130px;
     height: 55px;
   }
+}
+
+@media (min-width: 1501px) {
+  .container {
+    align-items: center;
+  }
 
   .container__image {
-    position: absolute;
-    top: -0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    gap: 100px;
-    padding: 0 30px;
+    max-width: 2000px;
+  }
+  .wrapper {
+    max-width: 100%;
+    padding: 0 10px;
+    height: 80px;
   }
 
-  .container__image::after {
-    background: none !important
-  }
-  
   .char-image {
-    width: calc(100vw - 20px);
-    max-width: 600px;
-    height: calc(50vh + 100px);
-    max-height: 800px;
+    width: 500px;
+    height: 750px;
+  }
+
+  .character-right {
+    height: 650px;
   }
 }
