@@ -19,7 +19,7 @@ body {
   justify-content: start;
   margin: 0 auto;
   position: relative;
-  background-image: url('images/BG/background\ iPhone\ 11.png');
+  background-image: url(/images/BG/bg_mob_web.webp);
   background-size: cover;
   max-width: 100%;
   min-height: 100vh;
@@ -529,7 +529,7 @@ body {
 @media (min-width: 1201px) {
 
   .container {
-    background-image: url(/images/BG/bg_pc_web.webp);
+    background-image: url(/images/BG/bg_pc_web_png.png);
     background-position: top;
     background-size: cover;
   }
