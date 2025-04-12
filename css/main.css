@@ -529,7 +529,7 @@ body {
 @media (min-width: 1201px) {
 
   .container {
-    background-image: url(/images/BG/bg-pc-web.webp);
+    background-image: url(/images/bg-pc-web.webp);
     background-position: top;
     background-size: cover;
   }
