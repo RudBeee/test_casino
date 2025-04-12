@@ -19,7 +19,7 @@ body {
   justify-content: start;
   margin: 0 auto;
   position: relative;
-  background-image: url('images/BG/bg_mob_web.webp');
+  background-image: url('../images/BG/bg_mob_web.webp');
   background-size: cover;
   max-width: 100%;
   min-height: 100vh;
@@ -61,7 +61,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('images/BG/IPad_content_bg_WEB.webp');
+  background-image: url('../images/BG/IPad_content_bg_WEB.webp');
   background-size: 110% 105%;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,14 +233,14 @@ body {
 }
 
 .right__ef {
-  background-image: url('images//button_pattern_left.webp');
+  background-image: url('../images//button_pattern_left.webp');
   height: 50px;
   width: 50px;
   background-size: auto;
   background-position: center;
 }
 .left__ef {
-  background-image: url('images/button_pattern_right.webp');
+  background-image: url('../images/button_pattern_right.webp');
   height: 50px;
   width: 50px;
   background-size: auto;
@@ -300,11 +300,11 @@ body {
 }
 
 .character-left {
-  background-image: url('images/char/character_Mobile_Web.webp');
+  background-image: url('../images/char/character_Mobile_Web.webp');
 }
 
 .character-right {
-  background-image: url('images/char/explorer_Mobile_WEB.webp');
+  background-image: url('../images/char/explorer_Mobile_WEB.webp');
 }
 
 @keyframes float {
@@ -377,7 +377,7 @@ body {
 
   .container {
     height: 100%;
-    background-image: url('images/BG/bg_Ipad_web.webp');
+    background-image: url('../images/BG/bg_Ipad_web.webp');
     background-position: top;
     background-size: 100% auto;
   }
@@ -405,7 +405,7 @@ body {
     gap: 12px;
     height: 455px;
     background-size: 100% auto;
-    background-image: url('images/BG/IPad_content_bg_WEB.webp');
+    background-image: url('../images/BG/IPad_content_bg_WEB.webp');
   }
 
   .bonus-title {
@@ -501,11 +501,11 @@ body {
   }
 
   .character-left {
-    background-image: url('images/char/chara_Ipad_web.webp');
+    background-image: url('../images/char/chara_Ipad_web.webp');
   }
 
   .character-right {
-    background-image: url('images/char/explorer_Ipad_web.webp');
+    background-image: url('../images/char/explorer_Ipad_web.webp');
   }
 
   .payment-methods {
@@ -555,7 +555,7 @@ body {
     gap: 12px;
     height: 620px;
     width: 1020px;
-    background-image: url('images/BG/Frame_PC_WEB.webp');
+    background-image: url('..//images/BG/Frame_PC_WEB.webp');
     background-size: cover;
   }
 
@@ -670,11 +670,11 @@ body {
   }
 
   .character-left {
-    background-image: url('images/char/Character_pc_web.webp');
+    background-image: url('../images/char/Character_pc_web.webp');
   }
   
   .character-right {
-    background-image: url('images/char/explorer_pc_web.webp');
+    background-image: url('../images/char/explorer_pc_web.webp');
   }
 
   .payment-methods {
