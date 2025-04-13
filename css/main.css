@@ -13,18 +13,18 @@ body {
   height: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin: 0 auto;
-  position: relative;
-  background-image: url('../images/BG/bg_mob_web.webp');
-  background-size: cover;
-  max-width: 100%;
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
+.container {   
+  display: flex;   
+  flex-direction: column;   
+  justify-content: start;   
+  margin: 0 auto;   
+  position: relative;   
+  background-image: url('../images/BG/bg_mob_web.webp');   
+  background-size: cover;   
+  max-width: 100%;   
+  min-height: 100vh;   
+  background-position: center;   
+  background-repeat: no-repeat;    
 }
 
 .header {
@@ -65,6 +65,18 @@ body {
   background-size: 110% 105%;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
+  animation: bg-pulse 2s infinite;
+}
+
+/* Ефект пульсації фону */
+@keyframes bg-pulse {
+  0%, 80% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
 }
 
 .bonus-title {
